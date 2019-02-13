@@ -1,0 +1,97 @@
+react js is used for building reusable UI components.
+it is a java script library.
+react uses virtual dom.
+regular dom: dom is a document object model. everything in dom is treated as a node.
+element is treated as a node.
+virtual dom: whenevr we change the state of your application, the virtual dom changnode -v
+node -v
+
+
+when we want to declare varibal;e in es6, then we use let or const
+create a folder; 
+
+
+2 types of export:
+named and default
+
+with named: there is a restriction, that whenever we use named export, 
+ same name should be used while importing
+
+for example:
+with default export:
+let k; export defualt k =12; //test.js
+
+now while importing:
+import m from'./test'
+console.log(m)
+
+
+with named export:
+export k=12 //test.js
+
+now while importing:
+import {k} from './test'
+
+
+
+person.js
+const person={
+name:'max'
+}
+export default person
+
+
+utility.js
+export const clean=()=>{}
+export const baseData=10
+
+
+app.js
+
+import person from './person.js' //default export
+import prs from ./person.js' //default export
+
+import {baseDta} from './utility.js' //named export
+import {clean} from './utility.js'//named export
+
+npm commands:
+
+npm install npm@latest -g  
+ npm install npx -g
+3) npx create-react-app my-app   
+
+
+spread and rest parameter:
+
+
+
+02/13/2019
+
+
+toggle button: state={persons:[
+{
+
+];
+showPersons:false
+
+
+inside: return(
+<button
+<div classname>
+..
+..
+{
+this.state.shoswPersons ? <div>
+cut copy the remaining part which is present in down in the inner div
+now put the inner div inside
+</div>:null}
+
+
+
+
+
+
+
+
+
+
